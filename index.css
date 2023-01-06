@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(238, 236, 236);
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image {
+    /* width: 50%; */
+    width: 100%;
+    height: 40vh;
+    position:absolute;
+    /* margin: 10% auto; */
+    top: 0;
+    left: 0;
+    /* height: 50vh; */
+    
+    padding: 5%;
+    border-radius: 10%;
+}
+.card{
+    width: 21%;
+    height: 57vh;
+    box-sizing: border-box;
+    margin: 2%;
+    border-radius: 10%;
+
+
+}
+.subcard{
+    position: relative;
+    /* background-color: rgb(221, 61, 61); */
+    width: 90%;
+    height: 40vh;
+    /* padding: 2rem; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* border-radius: 10%; */
+
+}
+.numberperc{
+    position:absolute;
+    top: 7%;
+    left: 6%;
+    background-color:aquamarine;
+    padding: 1%;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+.editsymbol{
+    position:absolute;
+    top: 7%;
+    right: 2%;
+    width: 1.5rem;
+    background-color:rgb(221, 218, 218);
+    padding: 0.2%;
+    border-radius: 0.5rem;
+}
+.content{
+    padding-left: 1rem;
+}
+.card:hover{
+    /* width: 100%; */
+    background-color: rgb(207, 204, 204);
+    cursor: pointer;
+    transform:rotateZ(-10deg)
+    
+    
+}
